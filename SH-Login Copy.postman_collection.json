@@ -25,7 +25,7 @@
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"\r",
+									"pm.variables.get(\"bearer_token\");\r",
 									"\r",
 									""
 								],
